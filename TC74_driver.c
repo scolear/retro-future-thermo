@@ -105,9 +105,3 @@ uint8_t read_temperature(uint8_t slave_address)
     return temp;
 }
 
-
-//TODO Advanced:
-//Calculate the average of the last 16 data, and returns with that.
-//TODO Advanced+:
-//Select the outstanding (false data) before average it.
-//These data don't needed, mess up your datas, get rid of it.
